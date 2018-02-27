@@ -1,0 +1,962 @@
+{
+  "account_plans": {
+    "fst_account_plans": {
+      "childrens": [
+        {
+          "id": "costos_estructura",
+          "name": "Costos Estructura",
+          "applies_investment": false,
+          "applies_second_plan": false,
+          "childrens": [
+            {
+              "id": "administración",
+              "name": "Administración",
+              "applies_investment": false,
+              "applies_second_plan": false,
+              "childrens": [
+                {
+                  "id": "crea",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "CREA"
+                },
+                {
+                  "id": "contador",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Contador"
+                },
+                {
+                  "id": "administrador",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Administrador"
+                },
+                {
+                  "id": "administración_otros",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Otros"
+                }
+              ]
+            },
+            {
+              "id": "mo_estructura",
+              "name": "MO Estructura",
+              "applies_investment": false,
+              "applies_second_plan": false,
+              "childrens": [
+                {
+                  "id": "sueldo",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Sueldo"
+                },
+                {
+                  "id": "leyes_sociales",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Leyes Sociales"
+                },
+                {
+                  "id": "manutencion",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Manutencion"
+                },
+                {
+                  "id": "autoconsumo_alimento",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Autoconsumo alimento"
+                },
+                {
+                  "id": "mo_estructura_otros",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Otros"
+                }
+              ]
+            },
+            {
+              "id": "mejoras_fijas",
+              "name": "Mejoras Fijas",
+              "applies_investment": false,
+              "applies_second_plan": false,
+              "childrens": [
+                {
+                  "id": "casas",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Casas"
+                },
+                {
+                  "id": "campo",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Campo"
+                },
+                {
+                  "id": "mejoras_fijas_otros",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Otros"
+                }
+              ]
+            },
+            {
+              "id": "vehículos_empresa",
+              "applies_second_plan": false,
+              "applies_investment": false,
+              "name": "Vehículos Empresa"
+            },
+            {
+              "id": "impuestos",
+              "name": "Impuestos",
+              "applies_investment": false,
+              "applies_second_plan": false,
+              "childrens": [
+                {
+                  "id": "impuesto_otros",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Otros"
+                },
+                {
+                  "id": "impuesto_primaria",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Primaria"
+                },
+                {
+                  "id": "contribución_inmobiliaria",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Contribución Inmobiliaria"
+                },
+                {
+                  "id": "patrimonio",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Patrimonio"
+                },
+                {
+                  "id": "irae",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Irae"
+                },
+                {
+                  "id": "imeba",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Imeba"
+                },
+                {
+                  "id": "impuesto_municipal",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "Impuesto Municipal"
+                },
+                {
+                  "id": "bps_aporte_patronal",
+                  "applies_second_plan": false,
+                  "applies_investment": false,
+                  "name": "BPS Aporte patronal"
+                }
+              ]
+            },
+            {
+              "id": "varios",
+              "applies_second_plan": false,
+              "applies_investment": false,
+              "name": "Varios"
+            },
+            {
+              "id": "depreciaciones",
+              "name": "Depreciaciones",
+              "applies_investment": true,
+              "applies_second_plan": false,
+              "childrens": [
+                {
+                  "id": "depreciacion_vehiculo",
+                  "applies_second_plan": false,
+                  "applies_investment": true,
+                  "name": "Vehiculo"
+                },
+                {
+                  "id": "depreciacion_forestacion",
+                  "applies_second_plan": false,
+                  "applies_investment": true,
+                  "name": "Forestacion"
+                },
+                {
+                  "id": "depreciacion_pasturas",
+                  "applies_second_plan": false,
+                  "applies_investment": true,
+                  "name": "Pasturas"
+                },
+                {
+                  "id": "depreciacion_maquinaria",
+                  "applies_second_plan": false,
+                  "applies_investment": true,
+                  "name": "Depreciacion Maquinaria"
+                },
+                {
+                  "id": "depreciacion_mejoras",
+                  "applies_second_plan": false,
+                  "applies_investment": true,
+                  "name": "Mejoras"
+                },
+                {
+                  "id": "depreciaciones_otros",
+                  "applies_second_plan": false,
+                  "applies_investment": true,
+                  "name": "Otros"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "renta/pastoreo/medianeria",
+          "applies_second_plan": false,
+          "applies_investment": false,
+          "name": "Renta/Pastoreo/Medianeria"
+        },
+        {
+          "id": "intereses",
+          "applies_second_plan": false,
+          "applies_investment": false,
+          "name": "Intereses"
+        },
+        {
+          "id": "pasivo",
+          "applies_second_plan": false,
+          "applies_investment": false,
+          "name": "Pasivo"
+        },
+        {
+          "id": "costos_variables",
+          "name": "Costos Variables",
+          "applies_investment": false,
+          "applies_second_plan": true,
+          "childrens": [
+            {
+              "id": "mo_rubros",
+              "applies_second_plan": true,
+              "applies_investment": false,
+              "name": "MO Rubros"
+            },
+            {
+              "id": "maquinaria",
+              "name": "Maquinaria",
+              "applies_investment": false,
+              "applies_second_plan": true,
+              "childrens": [
+                {
+                  "id": "patente",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Patente"
+                },
+                {
+                  "id": "seguro",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Seguro"
+                },
+                {
+                  "id": "combustible/lubricante",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Combustible/lubricante"
+                },
+                {
+                  "id": "reparacion/mantenimiento",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Reparacion/Mantenimiento"
+                },
+                {
+                  "id": "maquinaria_contradada",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Maquinaria contradada"
+                }
+              ]
+            },
+            {
+              "id": "total_gastos_ganado",
+              "name": "Total Gastos Ganado",
+              "applies_investment": false,
+              "applies_second_plan": true,
+              "childrens": [
+                {
+                  "id": "alimentación_ganado",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Alimentación Ganado"
+                },
+                {
+                  "id": "sanidad_",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Sanidad "
+                },
+                {
+                  "id": "esquila",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Esquila"
+                },
+                {
+                  "id": "total_gastos_ganado_otros",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "otros"
+                }
+              ]
+            },
+            {
+              "id": "gastos_pasturas",
+              "name": "Gastos Pasturas",
+              "applies_investment": false,
+              "applies_second_plan": true,
+              "childrens": [
+                {
+                  "id": "praderas",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Praderas"
+                },
+                {
+                  "id": "verdeos",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Verdeos"
+                },
+                {
+                  "id": "campo_nat._mej.",
+                  "applies_second_plan": true,
+                  "applies_investment": false,
+                  "name": "Campo Nat. Mej."
+                }
+              ]
+            },
+            {
+              "id": "gastos_cultivos_semilleros",
+              "applies_second_plan": true,
+              "applies_investment": false,
+              "name": "Gastos Cultivos Semilleros"
+            },
+            {
+              "id": "gastos_forestación",
+              "applies_second_plan": true,
+              "applies_investment": false,
+              "name": "Gastos Forestación"
+            },
+            {
+              "id": "gastos_reservas_forrajeras",
+              "applies_second_plan": true,
+              "applies_investment": false,
+              "name": "Gastos reservas Forrajeras"
+            },
+            {
+              "id": "gastos_varios",
+              "applies_second_plan": true,
+              "applies_investment": false,
+              "name": "Gastos Varios"
+            }
+          ]
+        }
+      ]
+    },
+    "snd_account_plans": {
+      "childrens": [
+        {
+          "id": "vacunos",
+          "name": "Vacunos",
+          "childrens": [
+            {
+              "id": "vacunos_propios_del_establecimiento",
+              "name": "Vacunos propios del establecimiento"
+            },
+            {
+              "id": "vacunos_ajenos_en_el_establecimiento",
+              "name": "Vacunos ajenos en el establecimiento"
+            },
+            {
+              "id": "vacunos_propios_fuera_del_establecimiento",
+              "name": "Vacunos propios Fuera del establecimiento"
+            }
+          ]
+        },
+        {
+          "id": "ovinos",
+          "name": "Ovinos",
+          "childrens": [
+            {
+              "id": "ovinos_ajenos_en_el_establecimiento",
+              "name": "Ovinos ajenos en el establecimiento"
+            },
+            {
+              "id": "ovinos_propios_del_establecimiento",
+              "name": "Ovinos propios del establecimiento"
+            },
+            {
+              "id": "ovinos_propios_fuera_del_establecimiento",
+              "name": "Ovinos propios Fuera del establecimiento"
+            }
+          ]
+        },
+        {
+          "id": "semilla_fina",
+          "name": "Semilla Fina",
+          "childrens": [
+            {
+              "id": "festuca",
+              "name": "Festuca"
+            },
+            {
+              "id": "dactylis",
+              "name": "Dactylis"
+            },
+            {
+              "id": "falaris",
+              "name": "Falaris"
+            },
+            {
+              "id": "cebadilla",
+              "name": "Cebadilla"
+            },
+            {
+              "id": "raigrass",
+              "name": "Raigrass"
+            },
+            {
+              "id": "trebl_rojo",
+              "name": "Trebl Rojo"
+            },
+            {
+              "id": "trébol_blanco",
+              "name": "Trébol Blanco"
+            },
+            {
+              "id": "lotus_corniculatus",
+              "name": "Lotus Corniculatus"
+            },
+            {
+              "id": "lotus_tenuis",
+              "name": "Lotus Tenuis"
+            },
+            {
+              "id": "lotus_rincon",
+              "name": "Lotus Rincon"
+            },
+            {
+              "id": "lotus_maku",
+              "name": "Lotus Maku"
+            },
+            {
+              "id": "alfalfa",
+              "name": "Alfalfa"
+            },
+            {
+              "id": "moha",
+              "name": "Moha"
+            },
+            {
+              "id": "sem._otros",
+              "name": "Sem. Otros"
+            }
+          ]
+        },
+        {
+          "id": "agricultura_",
+          "name": "Agricultura ",
+          "childrens": [
+            {
+              "id": "soja_1a",
+              "name": "Soja 1a"
+            },
+            {
+              "id": "soja_2a",
+              "name": "Soja 2a"
+            },
+            {
+              "id": "sorgo_1a",
+              "name": "Sorgo 1a"
+            },
+            {
+              "id": "sorgo_2a",
+              "name": "Sorgo 2a"
+            },
+            {
+              "id": "trigo",
+              "name": "Trigo"
+            },
+            {
+              "id": "maiz_1a",
+              "name": "Maiz 1a"
+            },
+            {
+              "id": "maiz_2a",
+              "name": "Maiz 2a"
+            },
+            {
+              "id": "cebada",
+              "name": "Cebada"
+            },
+            {
+              "id": "avena_grano",
+              "name": "Avena grano"
+            },
+            {
+              "id": "colza",
+              "name": "Colza"
+            },
+            {
+              "id": "arroz",
+              "name": "Arroz"
+            },
+            {
+              "id": "otro_cultivo__verano_1a",
+              "name": "Otro cultivo  verano 1a"
+            },
+            {
+              "id": "otro_cultivo_de_invierno",
+              "name": "Otro cultivo de Invierno"
+            },
+            {
+              "id": "girasol_1a",
+              "name": "Girasol 1a"
+            },
+            {
+              "id": "girasol_2a",
+              "name": "Girasol 2a"
+            },
+            {
+              "id": "otro_cultivo_verano_2a",
+              "name": "Otro cultivo verano 2a"
+            },
+            {
+              "id": "puente_verde",
+              "name": "Puente Verde"
+            }
+          ]
+        },
+        {
+          "id": "reserva_forrajera",
+          "name": "Reserva Forrajera",
+          "childrens": [
+            {
+              "id": "silo_planta_entera",
+              "name": "Silo Planta entera"
+            },
+            {
+              "id": "fardos_pradera",
+              "name": "Fardos Pradera"
+            },
+            {
+              "id": "fardos_festuca",
+              "name": "Fardos Festuca"
+            },
+            {
+              "id": "fardos_dactylis",
+              "name": "Fardos Dactylis"
+            },
+            {
+              "id": "fardos_falaris",
+              "name": "Fardos Falaris"
+            },
+            {
+              "id": "fardos_cebadilla",
+              "name": "Fardos Cebadilla"
+            },
+            {
+              "id": "fardos_raigrass",
+              "name": "Fardos Raigrass"
+            },
+            {
+              "id": "fardos_trébol_rojo",
+              "name": "Fardos Trébol Rojo"
+            },
+            {
+              "id": "fardos_trébol_blanco",
+              "name": "Fardos Trébol Blanco"
+            },
+            {
+              "id": "fardos_lotus_corniculatus",
+              "name": "Fardos Lotus Corniculatus"
+            },
+            {
+              "id": "fardos_lotus_tenuis",
+              "name": "Fardos Lotus Tenuis"
+            },
+            {
+              "id": "fardos_lotus_rincon",
+              "name": "Fardos Lotus Rincon"
+            },
+            {
+              "id": "fardos_lotus_maku",
+              "name": "Fardos Lotus Maku"
+            },
+            {
+              "id": "fardos_alfalfa",
+              "name": "Fardos Alfalfa"
+            },
+            {
+              "id": "fardos_moha",
+              "name": "Fardos Moha"
+            },
+            {
+              "id": "reserva_forrajera_otros",
+              "name": "Otros"
+            }
+          ]
+        },
+        {
+          "id": "lechería",
+          "name": "Lechería"
+        },
+        {
+          "id": "forestación",
+          "name": "Forestación"
+        },
+        {
+          "id": "servicios_maquinaria",
+          "name": "Servicios Maquinaria"
+        },
+        {
+          "id": "_otros",
+          "name": "Otros"
+        }
+      ]
+    }
+  },
+  "savings_banks": {
+    "savings_banks_movements_types": [
+      {
+        "value": 0,
+        "description": "Depósito"
+      },
+      {
+        "value": 1,
+        "description": "Retiro"
+      },
+      {
+        "value": 2,
+        "description": "Compra"
+      },
+      {
+        "value": 3,
+        "description": "Venta"
+      }
+    ],
+    "savings_banks_categories": [
+      {
+        "value": 0,
+        "description": "No banco"
+      },
+      {
+        "value": 1,
+        "description": "Banco"
+      }
+    ],
+    "savings_banks_movements_deposit_types": [
+      {
+        "value": 0,
+        "description": "Crédito"
+      },
+      {
+        "value": 1,
+        "description": "Otro"
+      }
+    ],
+    "currencies": [
+      {
+        "value": 0,
+        "description": "USD"
+      },
+      {
+        "value": 1,
+        "description": "UYU"
+      }
+    ]
+  },
+  "agro_crop_types": [
+    {
+      "value": "arroz",
+      "description": "Arroz"
+    },
+    {
+      "value": "avena_gr",
+      "description": "Avena Gr"
+    },
+    {
+      "value": "cebada",
+      "description": "Cebada"
+    },
+    {
+      "value": "colza",
+      "description": "Colza"
+    },
+    {
+      "value": "girasol",
+      "description": "Girasol"
+    },
+    {
+      "value": "improductiva",
+      "description": "Improductiva"
+    },
+    {
+      "value": "maiz",
+      "description": "Maiz"
+    },
+    {
+      "value": "otro_cult_ver",
+      "description": "Otro Cult Ver"
+    },
+    {
+      "value": "otro_cult_invierno",
+      "description": "Otro cult Invierno"
+    },
+    {
+      "value": "sem_alfalfa",
+      "description": "Sem Alfalfa"
+    },
+    {
+      "value": "sem_cebadilla",
+      "description": "Sem Cebadilla"
+    },
+    {
+      "value": "sem_dactilis",
+      "description": "Sem Dactilis"
+    },
+    {
+      "value": "sem_falaris",
+      "description": "Sem Falaris"
+    },
+    {
+      "value": "sem_festuca",
+      "description": "Sem Festuca"
+    },
+    {
+      "value": "sem_lotus_corn",
+      "description": "Sem Lotus Corn"
+    },
+    {
+      "value": "sem_moha",
+      "description": "Sem Moha"
+    },
+    {
+      "value": "sem_otros",
+      "description": "Sem Otros"
+    },
+    {
+      "value": "sem_raigras",
+      "description": "Sem Raigras"
+    },
+    {
+      "value": "sem_t_blanco",
+      "description": "Sem T Blanco"
+    },
+    {
+      "value": "sem_t_rojo",
+      "description": "Sem T Rojo"
+    },
+    {
+      "value": "sem_lotus_maku",
+      "description": "Sem lotus Maku"
+    },
+    {
+      "value": "sem_lotus_rincon",
+      "description": "Sem lotus Rincon"
+    },
+    {
+      "value": "sem_lotus_tenuis",
+      "description": "Sem lotus Tenuis"
+    },
+    {
+      "value": "soja",
+      "description": "Soja"
+    },
+    {
+      "value": "sorgo",
+      "description": "Sorgo"
+    },
+    {
+      "value": "trigo",
+      "description": "Trigo"
+    }
+  ],
+  "cattle": {
+    "horse": [
+      {
+        "value": 0,
+        "description": "Potranco"
+      },
+      {
+        "value": 1,
+        "description": "Potranca"
+      },
+      {
+        "value": 2,
+        "description": "Caballo"
+      },
+      {
+        "value": 3,
+        "description": "Yegua"
+      },
+      {
+        "value": 4,
+        "description": "Padrillo"
+      },
+      {
+        "value": 5,
+        "description": "Potro"
+      },
+      {
+        "value": 6,
+        "description": "Potra"
+      },
+      {
+        "value": 7,
+        "description": "Otra"
+      }
+    ],
+    "ovine": [
+      {
+        "value": 0,
+        "description": "Cordero"
+      },
+      {
+        "value": 1,
+        "description": "Cordera"
+      },
+      {
+        "value": 2,
+        "description": "Borrego dl"
+      },
+      {
+        "value": 3,
+        "description": "Borrega dl"
+      },
+      {
+        "value": 4,
+        "description": "Borrego 2d"
+      },
+      {
+        "value": 5,
+        "description": "Borrega 2d"
+      },
+      {
+        "value": 6,
+        "description": "Capón 2-3"
+      },
+      {
+        "value": 8,
+        "description": "Capón 3-4"
+      },
+      {
+        "value": 9,
+        "description": "Capón +4"
+      },
+      {
+        "value": 10,
+        "description": "Oveja consumo"
+      },
+      {
+        "value": 11,
+        "description": "Oveja cría"
+      },
+      {
+        "value": 12,
+        "description": "Carnero"
+      }
+    ],
+    "bovine": [
+      {
+        "value": 0,
+        "description": "Ternero"
+      },
+      {
+        "value": 1,
+        "description": "Ternera"
+      },
+      {
+        "value": 9,
+        "description": "Toro"
+      },
+      {
+        "value": 10,
+        "description": "Toritos 1-2"
+      },
+      {
+        "value": 2,
+        "description": "Vaca de cría"
+      },
+      {
+        "value": 3,
+        "description": "Novillo +3"
+      },
+      {
+        "value": 4,
+        "description": "Novillo 2-3"
+      },
+      {
+        "value": 5,
+        "description": "Novillo 1-2"
+      },
+      {
+        "value": 6,
+        "description": "Vaquillona de cría"
+      },
+      {
+        "value": 7,
+        "description": "Vaquillona +2"
+      },
+      {
+        "value": 8,
+        "description": "Vaquillona 1-2"
+      },
+      {
+        "value": 11,
+        "description": "Vaca invernada"
+      },
+      {
+        "value": 12,
+        "description": "Novillo +3 Hol"
+      },
+      {
+        "value": 13,
+        "description": "Novillo 2-3 Hol"
+      },
+      {
+        "value": 14,
+        "description": "Novillo 1-2 Hol"
+      },
+      {
+        "value": 15,
+        "description": "Vauillona Hol cría"
+      },
+      {
+        "value": 17,
+        "description": "Vaquillona 1-2 Hol"
+      },
+      {
+        "value": 16,
+        "description": "Vaquillona +2 Hol"
+      },
+      {
+        "value": 18,
+        "description": "Ternero Hol"
+      },
+      {
+        "value": 19,
+        "description": "Ternera Hol"
+      }
+    ]
+  }
+}
