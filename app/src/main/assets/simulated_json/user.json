@@ -1,0 +1,14 @@
+{
+  "role": "PRODUCTOR",
+  "end_date": null,
+  "permissions": null,
+  "temporary": false,
+  "id": 172,
+  "username": "prueba_productor",
+  "email": "miguel_gaudio@hotmail.com",
+  "name": "jose",
+  "address": "una",
+  "phone_number": "099999999",
+  "departament": 3,
+  "uninitialized_establishments": true
+}
